@@ -1,2 +1,2 @@
-# pglp_3.1
-Illustration du principe de de responsabilité unique
+# pglp_3.2
+(Illustration du principe ouvert/fermé (OCP)
