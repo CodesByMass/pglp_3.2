@@ -8,7 +8,7 @@ public class employe extends allEmploye {
 	@Override
 	public double salaire() {
 		// TODO Auto-generated method stub
-		return  salaire ;
+		return  salaire+(2020-this.startYear);
 	}
 	
 	
