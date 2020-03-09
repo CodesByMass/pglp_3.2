@@ -17,7 +17,7 @@ public class Employe extends Entreprise {
 	}
 
 	/**
-	 * Le calcul du salaire se fait avec la base et l'ancienneté
+	 * Le calcul du salaire se fait avec la base et l'ancienneté.
 	 *
 	 * @return le salaire de l'employé this
 	 */

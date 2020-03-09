@@ -16,7 +16,7 @@ public class Vendeur extends Entreprise {
 	}
 
 	/**
-	 * Le calcul du salaire se fait avec la base et la commission
+	 * Le calcul du salaire se fait avec la base et la commission.
 	 *
 	 * @return le salaire du vendeur
 	 */

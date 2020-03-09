@@ -1,4 +1,5 @@
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,8 +23,8 @@ public class AppTest {
 		new Vendeur(20);
 		new Employe(2010);
 		new Employe(2005);
-		System.out.println(App.calculerTotalSalaire());
-		assertEquals(App.calculerTotalSalaire(), 6530.0, 0);
+		new Manager(10);
+		assertEquals(App.calculerTotalSalaire(), 9030.0, 0);
 	}
 
 }

@@ -11,7 +11,7 @@ public class App {
 
 	/**
 	 *
-	 * @return La somme des salaires de l'entreprise
+	 * @return La somme des salaires de l'entreprise.
 	 */
 	public static double calculerTotalSalaire() {
 		double salaireTotal = 0;
@@ -23,7 +23,7 @@ public class App {
 
 	/**
 	 *
-	 * Méthode main
+	 * Méthode main.
 	 *
 	 * @param args
 	 */
