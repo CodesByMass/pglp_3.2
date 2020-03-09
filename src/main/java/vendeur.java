@@ -1,16 +1,29 @@
 
-public class vendeur extends allEmploye {
+public class Vendeur extends Entreprise {
 
-	final private int base = 2000;
-	private int commission ;
-	public vendeur (int commission) {
-		this.commission = commission ;
+	/**
+	 * Salaire de base du vendeur
+	 */
+	private final static double BASE = 1500;
+	/**
+	 * Commission ajoutée pour chaque vendeur
+	 */
+	private int commission;
+
+	public Vendeur(final int commission) {
+		this.commission = commission;
+		App.listeEmploye.add(this);
 	}
-	
+
+	/**
+	 * Le calcul du salaire se fait avec la base et la commission
+	 *
+	 * @return le salaire du vendeur
+	 */
 	@Override
 	public double salaire() {
-		// TODO Auto-generated method stub
-		return 0;
+
+		return BASE + commission;
 	}
 
 }
